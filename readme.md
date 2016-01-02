@@ -1,14 +1,4 @@
 # Blur Text Wordpress Plugin
-Author URI: http://www.linsoftware.com
-Plugin URI: http://www.linsoftware.com/blur-text/
-Contributors: LinSoftware
-Donate link: http://www.linsoftware.com/support-free-plugin-development/
-Tags: blur text, hide text, blur, hover
-Requires at least: 3.9
-Tested up to: 4.4
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Blur Text with a shortcode.  Unblur with a click or hover.  Specify a blur color.
 
