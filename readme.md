@@ -66,7 +66,7 @@ The fallback is specified like this:
 
 I may write a premium plugin that has these features.  However, I need suggestions as to exactly what type of features I
  should add.  If you would like me to customize this plugin for you so that it shows the blurred text only in a
- specific context, I may be albe to program a custom plugin for you.  Please contact me at http://www.linsoftware.com/contact/
+ specific context, I may be able to program a custom plugin for you.  Please contact me at http://www.linsoftware.com/contact/
 
 
 == Screenshots ==
