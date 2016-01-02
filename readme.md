@@ -54,7 +54,7 @@ The fallback is specified like this:
 
 ## Frequently Asked Questions
 
-### Can I have the blurred text revealed only to members, only after a form is submitted, or in some other context? =
+Can I have the blurred text revealed only to members, only after a form is submitted, or in some other context? 
 
 I may write a premium plugin that has these features.  However, I need suggestions as to exactly what type of features I
  should add.  If you would like me to customize this plugin for you so that it shows the blurred text only in a
