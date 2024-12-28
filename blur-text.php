@@ -3,7 +3,7 @@
  * Plugin Name: Blur Text
  * Plugin URI: https://www.linsoftware.com/blur-text/
  * Description: Blur Text with a shortcode.  Unblur with a click or hover.
- * Version: 1.0.0
+ * Version: 2.0.0
  * Author: Linnea Huxford, LinSoftware
  * Author URI: https://www.linsoftware.com
  */
@@ -32,7 +32,7 @@ function blur_shortcode( $atts, $content = null ) {
 	$class_names = [];
 	if(strcmp($a['toggle'], 'hover')== 0) {
 		$class_names[] = 'blur_hover';
-	} elseif (strcmp($a['toggle'], 'click')== 0) {
+	} else {
 		$class_names[] = 'blur_click';
 	}
 
@@ -52,7 +52,7 @@ add_shortcode( 'blur', 'blur_shortcode' );
 
 function blur_scripts() {
 	wp_enqueue_script( 'blur_linsoft', plugins_url( '/blur-text.js', __FILE__ ) ,
-		array( 'jquery' ), '2.0.1' );
+		array( 'jquery' ), '2.0.0' );
 }
 
 add_action( 'wp_enqueue_scripts', 'blur_scripts' );

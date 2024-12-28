@@ -61,6 +61,7 @@ I may write a premium plugin that has these features.  However, I need suggestio
 * Compatibility with WordPress 6.7.1
 * Remove support for IE.
 * Remove fallback for unsupported browsers because all browsers now support text-shadow.
+* Remove mailing list subscription prompt.
 
 = 1.0.0: September 2015 =
 

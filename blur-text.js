@@ -15,8 +15,8 @@ jQuery( document ).ready(function() {
         this.attr('oldcolor', c);
         var background_color = this.css("background");
         this.attr('oldbackground', background_color);
-		this.css('color', 'transparent');
-		this.css('text-shadow', '0px 0px 10px ' + c);
+        this.css('color', 'transparent');
+        this.css('text-shadow', '0px 0px 10px ' + c);
     };
 
     jQuery.fn.unblur = function() {
@@ -29,6 +29,7 @@ jQuery( document ).ready(function() {
     $blur_hover.each(function() {
         toggleblur(jQuery(this));
     });
+
     $blur.each(function() {
         toggleblur(jQuery(this));
     });
@@ -56,5 +57,4 @@ jQuery( document ).ready(function() {
             $element.blur();
         }
     }
-
 });
