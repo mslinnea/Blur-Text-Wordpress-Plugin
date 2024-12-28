@@ -1,61 +1,16 @@
 # Blur Text Wordpress Plugin
 
-Blur Text with a shortcode.  Unblur with a click or hover.  Specify a blur color.
+The **Blur Text WordPress Plugin** provides an easy and customizable way to obscure text on your website with a simple shortcode. Whether you’re adding an interactive element to your content, hiding spoilers, or creating a playful reveal effect, this plugin has you covered. With the ability to unblur text on hover or click, and the option to specify blur colors, you can seamlessly integrate this feature into your site’s design and functionality.
 
-## Description
+### Example Use Cases:
 
-Visit the [Wordpress Plugin Directory](https://wordpress.org/plugins/blur-text/screenshots/) for screenshots and to download the latest version.
+- **Spoilers or Hidden Content:** Hide spoilers in blog posts or articles, allowing users to reveal them with a click or hover.
+	- Example: `[blur toggle=click]The hero's identity is revealed at the end![/blur]`
 
-Use the shortcode [blur][/blur] to blur text.
+- **Interactive Learning:** Blur answers in quizzes or educational content to encourage engagement before revealing.
+	- Example: `[blur toggle=hover]The capital of France is Paris.[/blur]`
 
-For example:
-[blur]This text will be blurred[/blur]
+- **Aesthetic Effects:** Add a stylish blur to emphasize important sections or create visual intrigue.
+	- Example: `[blur color=blue]Click here to find out more![/blur]`
 
-Optionally, you can set the blur to be removed when the user clicks or hovers on it.
-
-Here are the shortcode examples for that:
-
-[blur toggle=click]This text will be blurred until it's clicked on[/blur]
-
-[blur toggle=hover]This text will be blurred until it's hovered over[/blur]
-
-Be default, the blurred text color will be black.  You can specify a different color like this:
-
-[blur color=orange]This text will be orange, even when blurred.[/blur]
-
-[blur color=#00FF00]This text will be green, even when blurred.[/blur]
-
-This plugin uses the CSS3 feature "text-shadow" to create the blur and a transparent color font.  This plugin only works with the following browsers:
-Firefox 3.5+
-Chrome 4+
-Safari 4+
-Opera 9.6+
-
-This plugin allows you to choose what should be done on unsupported browsers.  There are currently 3 choices:
-1) blackout - This makes the background color the same color as the text  (default)
-2) none - This doesn't change the text at all.
-3) hide - The text will not be shown on unsupported browsers.
-
-The fallback is specified like this:
-
-[blur fallback=blackout color=red]This text will have a solid red background on unsupported browsers.[/blur]
-
-[blur toggle=click fallback=hide]If you are using IE or another unsupported browser, you will not see this text.[/blur]
-
-
-## Installation
-
-1. Install the plugin in wp-content\plugins
-2. Activate the Plugin
-3. Use one of these shortcodes around your text:
-[blur][/blur]
-[blur toggle=click][/blur]
-[blur toggle=hover][/blur]
-
-## Frequently Asked Questions
-
-Can I have the blurred text revealed only to members, only after a form is submitted, or in some other context? 
-
-I may write a premium plugin that has these features.  However, I need suggestions as to exactly what type of features I
- should add.  If you would like me to customize this plugin for you so that it shows the blurred text only in a
- specific context, I may be albe to program a custom plugin for you.  Please contact me at http://www.linsoftware.com/contact/
+This plugin is simple to set up.  Simply install and use the shortcode block.
