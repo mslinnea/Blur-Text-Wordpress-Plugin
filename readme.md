@@ -1,4 +1,4 @@
-# Blur Text Wordpress Plugin
+# Blur Text WordPress Plugin
 
 The **Blur Text WordPress Plugin** provides an easy and customizable way to obscure text on your website with a simple shortcode. Whether you’re adding an interactive element to your content, hiding spoilers, or creating a playful reveal effect, this plugin has you covered. With the ability to unblur text on hover or click, and the option to specify blur colors, you can seamlessly integrate this feature into your site’s design and functionality.
 
