@@ -14,3 +14,7 @@ The **Blur Text WordPress Plugin** provides an easy and customizable way to obsc
 	- Example: `[blur color=blue]Click here to find out more![/blur]`
 
 This plugin is simple to set up.  Simply install and use the shortcode block.
+
+### Contributions Welcome!
+
+This plugin has been on the backburner for a long time.  If you find it useful and would like to add features or fix bugs, please submit issues and pull requests. Thanks!
